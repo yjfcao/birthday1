@@ -1,0 +1,57 @@
+/* 背景样式 */
+body{
+	background-image: url(../img/happybirthdaybackground.png);
+}
+
+/* 按钮样式 */
+#entry_btn{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+	margin-left: 170px;
+    outline: none;
+    color:#fff;
+    background-color: rgb(16, 185, 214);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+	margin-top: 10px;
+}
+#entry_btn:hover{
+background-color: #1795bb;
+}
+#entry_btn:active{
+    background-color: #1795bb;
+    box-shadow: 0 5px #666;
+    transform:translateY(4px);
+}
+/* 账号样式 */
+#container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#entry_name{
+	margin-left: 170px;
+	margin-top: 10px;
+	height: 30px;
+	width: 200px;
+	border-radius: 15px;
+}
+
+#entry_password{
+	border-radius: 15px;
+	margin-top: 10px;
+	height: 30px;
+	width: 200px;
+	margin-left: 170px;
+}
